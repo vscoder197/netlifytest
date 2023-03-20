@@ -1,7 +1,7 @@
 [[redirects]]
   
   from: "/_next/image*"
-  to: "/_ipx/w_:width,q_=quality/=url"
+  to: "/_ipx/w_=width,q_=quality/=url"
   
   query = { url= ":url", w= ":width", q= ":quality" }
   status = 200
